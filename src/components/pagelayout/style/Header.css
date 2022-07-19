@@ -1,0 +1,172 @@
+button {
+  border: none;
+  background-color: transparent;
+}
+
+img {
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  line-height: 1;
+  font-size: 18px;
+}
+
+.cart-btn {
+  display: inline-block;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-left: 20px;
+  color: #fff;
+  padding: 15px 50px;
+  border-radius: 10px;
+  background-color: #c2015b;
+}
+
+.fNav {
+  border-bottom: 1px solid #ddd;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#dropdown-basic {
+  color: #000;
+  margin: 0;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  padding: 0;
+}
+
+#dropdown-basic:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+#dropnav {
+  margin: auto 0;
+}
+#dropnav .accountLog {
+  padding: 20px;
+}
+
+svg:hover {
+  color: #f30c79;
+}
+
+#searchButton {
+  background-color: transparent !important;
+  border: none;
+  color: #ddd;
+  border-right: 1px solid #ddd;
+  /* position: absolute; */
+}
+
+#searchForm {
+  height: 40px;
+  border-radius: 50px;
+  padding-right: 20px;
+  margin: auto 20px;
+  border: 1px solid #ddd;
+}
+
+.searchBar {
+  background-color: transparent;
+}
+
+#searchForm ::-moz-placeholder {
+  padding: 50px;
+}
+
+#searchForm :-ms-input-placeholder {
+  padding: 50px;
+}
+
+#searchForm ::placeholder {
+  padding: 50px;
+}
+
+#searchTerm {
+  border: 0;
+}
+
+/* .Icons{
+    margin: auto;
+  } */
+.Icons {
+  margin: auto;
+}
+.Icons .icon {
+  margin: auto 10px;
+}
+
+.navLink {
+  color: black !important;
+  margin: 1% 50px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.navLink:hover {
+  color: #f30c79 !important;
+  border-bottom: 2px solid #f30c79;
+}
+
+#basic-nav-dropdown:hover {
+  color: #f30c79 !important;
+}
+
+.Icons {
+  position: relative;
+}
+.Icons .cart-icon {
+  margin-right: 30px;
+}
+.Icons .cart-icon .numOfClass {
+  padding: 1px 7px;
+  background-color: #f30c79;
+  text-align: center;
+  color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 13px;
+  right: 20px;
+}
+
+.MainBar {
+  position: relative;
+}
+.MainBar .listItems {
+  display: none;
+  position: absolute;
+  padding: 10px;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 35vw;
+  z-index: 100;
+  background-color: #FFF;
+}
+.MainBar .listItems h3 {
+  font-size: 400px;
+  color: aqua;
+}
+.MainBar .listItems h3 span {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.MainBar .listItems h3::after {
+  content: "";
+  display: block;
+  border-bottom: 2px solid #f30c79;
+  width: 50px;
+}
+.MainBar .cartactive {
+  display: block;
+}
+.MainBar .close-icon {
+  font-size: 30px;
+  margin-bottom: 20px;
+}/*# sourceMappingURL=Header.css.map */

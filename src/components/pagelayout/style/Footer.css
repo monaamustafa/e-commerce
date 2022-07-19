@@ -1,0 +1,80 @@
+button {
+  border: none;
+  background-color: transparent;
+}
+
+img {
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  line-height: 1;
+  font-size: 18px;
+}
+
+.cart-btn {
+  display: inline-block;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-left: 20px;
+  color: #fff;
+  padding: 15px 50px;
+  border-radius: 10px;
+  background-color: #c2015b;
+}
+
+.footer {
+  padding: 100px 50px;
+  background-color: #f6f6f6;
+}
+.footer .phonesection p {
+  margin: 1%;
+  padding: 1%;
+}
+.footer .phonesection .phone-icon {
+  margin: 2%;
+}
+.footer .social-icon {
+  font-size: 20px;
+  color: #f30c79;
+}
+.footer .social-icon .icon {
+  padding: 20px;
+}
+.footer .social-icon .icon:hover {
+  display: inline-block;
+  margin: 0 0.5rem;
+  -webkit-animation: bounce;
+          animation: bounce;
+  /* referring directly to the animation's @keyframe declaration */
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  /* don't forget to set a duration! */
+}
+
+.footerDetials {
+  width: 70%;
+  background-color: #efefef;
+  padding: 70px 50px;
+}
+.footerDetials .details {
+  position: relative;
+  width: 100%;
+  margin: 2%;
+}
+.footerDetials .details h6 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #253237;
+  text-transform: capitalize;
+  border-bottom: 1px solid #e3e3e3;
+}
+.footerDetials .details h6::after {
+  content: "";
+  border-bottom: 2px solid #f30c79;
+  width: 50px;
+  display: block;
+}/*# sourceMappingURL=Footer.css.map */

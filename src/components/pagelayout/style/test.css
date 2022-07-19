@@ -1,0 +1,34 @@
+
+.MainBar{
+    position: relative;
+}
+.MainBar .listItems {
+      display: none;
+      position: absolute;
+      padding: 10px;
+      top: 0;
+      right: 0;
+      height: 100vh;
+      width: 35vw;
+      z-index: 100;
+      background-color: #FFF;
+}
+.MainBar .listItems h3{
+        font-size: 400px;
+        color: aqua;
+}
+.MainBar .listItems h3::after{
+          content: '';
+          display: block;
+          border-bottom: 2px solid blue;
+          width: 50px;
+        }
+    .cartactive {
+      display: block;
+    }
+    .close-icon{
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+  
+  

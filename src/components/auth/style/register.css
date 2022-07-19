@@ -1,0 +1,49 @@
+button {
+  border: none;
+  background-color: transparent;
+}
+
+img {
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  line-height: 1;
+  font-size: 18px;
+}
+
+.cart-btn {
+  display: inline-block;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-left: 20px;
+  color: #fff;
+  padding: 15px 50px;
+  border-radius: 10px;
+  background-color: #c2015b;
+}
+
+.MColor {
+  background-color: #f30c79 !important;
+  border: none !important;
+  border-radius: 20px !important;
+  color: #fff !important;
+  width: 100%;
+}
+.MColor:hover {
+  background-color: #333 !important;
+}
+
+.formItem {
+  padding: 3%;
+  border: 1px solid #ddd;
+  width: 43%;
+  margin: 2%;
+  border-radius: 5px;
+}
+.formItem h6 {
+  font-size: 25px;
+}/*# sourceMappingURL=register.css.map */

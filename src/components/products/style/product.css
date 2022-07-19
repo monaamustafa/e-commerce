@@ -1,0 +1,219 @@
+button {
+  border: none;
+  background-color: transparent;
+}
+
+img {
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  line-height: 1;
+  font-size: 18px;
+}
+
+.cart-btn {
+  display: inline-block;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-left: 20px;
+  color: #fff;
+  padding: 15px 50px;
+  border-radius: 10px;
+  background-color: #c2015b;
+}
+
+p {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.productCard {
+  width: 31%;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  border: 1px solid #ddd;
+}
+.productCard:hover {
+  border-color: #f30c79;
+}
+.productCard .productCard-img {
+  height: auto;
+  display: block;
+  overflow-y: hidden;
+  overflow: hidden;
+}
+.productCard .productCard-img img {
+  width: 100%;
+  display: block;
+  transition: transform 2s;
+}
+.productCard .productCard-img img:hover {
+  transform: scale(1.3);
+}
+.productCard .productCard-content {
+  margin-top: 10px;
+}
+
+.prod-img {
+  width: 48%;
+  overflow: hidden;
+}
+.prod-img img {
+  width: 100%;
+  display: block;
+  margin: 0 0.5rem;
+  transition: transform 2s;
+  overflow: hidden;
+}
+.prod-img img:hover {
+  transform: scale(1.3);
+}
+
+.prod-cont {
+  width: 50%;
+}
+.prod-cont .prod-info {
+  width: 40%;
+}
+.prod-cont .prod-info .p-head {
+  margin-bottom: 20px !important;
+  font-weight: 700;
+}
+.prod-cont .add-to-cart-btn {
+  background-color: #c2015b;
+  padding: 10px 25px;
+  border: none !important;
+  outline: none;
+  border-radius: 20px;
+  color: #fff;
+  letter-spacing: 3px;
+}
+.prod-cont .icon {
+  color: #c2015b;
+  font-size: 40px;
+}
+.prod-cont .why-us {
+  width: 100%;
+  padding-top: 15px;
+  flex-wrap: wrap;
+}
+.prod-cont .why-us .why-us-details {
+  padding-top: 10px;
+  padding-bottom: 15px;
+  width: 50% !important;
+}
+.prod-cont .why-us .why-us-details .details {
+  padding: 1%;
+}
+.prod-cont .why-us .why-us-details .details p {
+  line-height: 1.1;
+}
+.prod-cont .why-us .why-us-details .details .P-head {
+  font-weight: 700;
+}
+.prod-cont .add-cart {
+  padding-top: 30px;
+}
+.prod-cont .add-cart .add-to-cart-form {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.prod-cont .add-to-wish-list svg:hover {
+  fill: #c2015b;
+}
+
+.Related-poducts {
+  margin-bottom: 50px;
+  margin-top: 80px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+.Related-poducts h3 {
+  display: inline-block;
+  margin-bottom: 90px;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #253237;
+  text-transform: capitalize;
+  border-bottom: 1px solid #e3e3e3;
+}
+.Related-poducts h3::after {
+  content: "";
+  border-bottom: 2px solid #f30c79;
+  width: 50px;
+  display: block;
+}
+.Related-poducts .related-ProductCard {
+  width: 18% !important;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  border: 1px solid #ddd;
+}
+.Related-poducts .related-ProductCard:hover {
+  border-color: #f30c79;
+}
+.Related-poducts .related-ProductCard .productCard-img {
+  height: auto;
+  display: block;
+  overflow-y: hidden;
+  overflow: hidden;
+}
+.Related-poducts .related-ProductCard .productCard-img img {
+  width: 100%;
+  display: block;
+  transition: transform 2s;
+}
+.Related-poducts .related-ProductCard .productCard-img img:hover {
+  transform: scale(1.3);
+}
+
+.cartList .cart-img-container {
+  width: 35%;
+}
+
+.sectionProduct {
+  padding-top: 50px;
+}
+.sectionProduct .productSection {
+  text-align: center;
+  width: 80%;
+}
+.sectionProduct .productSection h6 {
+  font-weight: 700;
+  color: #253237 !important;
+  font-family: "Orbitron", sans-serif;
+  letter-spacing: 0.21rem;
+}
+.sectionProduct .productSection p {
+  font-size: 22px;
+  font-weight: 500;
+}
+.sectionProduct .filterSection h3 {
+  font-weight: 700;
+}
+.sectionProduct .filterSection h3::after {
+  content: "";
+  display: block;
+  width: 40px;
+  border: 1px solid #f30c79;
+  font-family: "Orbitron", sans-serif;
+}
+
+.productIcons {
+  padding-bottom: 30px;
+}
+.productIcons .icon {
+  font-size: 25px;
+}
+.productIcons .icon:hover {
+  color: #c2015b;
+  fill: #c2015b;
+  stroke: #c2015b;
+}/*# sourceMappingURL=product.css.map */

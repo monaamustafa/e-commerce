@@ -1,0 +1,40 @@
+$MainColor: #f30c79;
+$SecondColor: #c2015b;
+$WhiteColor: #fff;
+$logoFont: "Orbitron", sans-serif;
+$bodyFont: "Alegreya Sans", sans-serif;
+@mixin btnStyles {
+  background-color: $MainColor !important;
+  border: none !important;
+  border-radius: 20px !important;
+  color: $WhiteColor !important;
+  &:hover {
+    background-color: #333 !important;
+  }
+}
+button {
+  border: none;
+  background-color: transparent;
+}
+img {
+  width: 100%;
+}
+
+h1,h2,h3,h4,h5,h6{
+  margin-top: 10px ;
+  margin-bottom: 10px;
+  font-weight: 500;
+    line-height: 1;
+    font-size: 18px;
+}
+
+.cart-btn{
+  display: inline-block;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-left: 20px;
+ color: $WhiteColor;
+ padding: 15px 50px;
+ border-radius: 10px;
+ background-color: #c2015b;
+}

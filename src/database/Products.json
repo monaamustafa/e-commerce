@@ -1,0 +1,80 @@
+[
+    {
+        "id":1,
+        "name":"Andie Lighted Grey",
+        "price":590.00,
+        "image":"https://m2.alothemes.com/safira/media/catalog/product/cache/d500e214958dbc08ac65dad036025b47/1/4/14_1_4.jpg",
+        "amount":200,
+        "category":"chairs"
+    },    {
+        "id":2,
+        "name":"AlexGT Smart Watch",
+        "price":550.00,
+        "image":"https://m2.alothemes.com/safira/media/catalog/product/cache/d500e214958dbc08ac65dad036025b47/1/6/16_3.jpg",
+        "amount":200,
+        "category":"Watch"
+    },    {
+        "id":3,
+        "name":"Andie Lighted wooden",
+        "price":550.00,
+        "image":"https://m2.alothemes.com/safira/media/catalog/product/cache/16a86d30443b6958533e7bf7da26ad48/4/_/4_36_3.jpg",
+        "amount":200,
+        "category":"chairs"
+    }
+    ,    {
+        "id":4,
+        "name":"Andie Lighted Grey",
+        "price":550.00,
+        "image":"https://m2.alothemes.com/safira/media/catalog/product/cache/050ae619cade564c4ea2c7008ad0fd9d/9/_/9_1_9.jpg",
+        "amount":200,
+        "category":"chairs"
+    }
+    ,    {
+        "id":5,
+        "name":"Andie Lighted Grey",
+        "price":550.00,
+        "image":"https://m2.alothemes.com/safira/media/catalog/product/cache/85933440cdcc936886c7d5f6aed18d24/3/_/3_62_1.jpg",
+        "amount":200,
+        "category":"chairs"
+    }
+    ,    {
+        "id":6,
+        "name":"Andie Lighted Grey",
+        "price":550.00,
+        "image":"https://m2.alothemes.com/safira/media/catalog/product/cache/d500e214958dbc08ac65dad036025b47/1/5/15_4.jpg",
+        "amount":200,
+        "category":"chairs"
+    },    
+    {
+        "id":7,
+        "name":"Andie Lighted Grey",
+        "price":550.00,
+        "image":"https://images.unsplash.com/photo-1602162786736-1575a5b1be76?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbCUyMHdhdGNofGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "amount":200,
+        "category":"watch"
+    } ,
+    {
+        "id":8,
+        "name":"Andie Lighted Grey",
+        "price":550.00,
+        "image":"https://images.unsplash.com/photo-1609980775647-1fb1ef376268?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d2FsbCUyMHdhdGNofGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "amount":200,
+        "category":"watch"
+    } ,
+    {
+        "id":9,
+        "name":"Andie Lighted Grey",
+        "price":550.00,
+        "image":"https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8d2FsbCUyMHdhdGNofGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "amount":200,
+        "category":"watch"
+    } ,
+    {
+        "id":10,
+        "name":"Andie Lighted Grey",
+        "price":550.00,
+        "image":"https://images.unsplash.com/photo-1620847516500-a31102c8ed79?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1452&q=80",
+        "amount":200,
+        "category":"watch"
+    }   
+]

@@ -1,0 +1,52 @@
+@import "../../sass/_global";
+.footer {
+  padding: 100px 50px;
+  background-color: #f6f6f6;
+  .phonesection {
+    p {
+      margin: 1%;
+      padding: 1%;
+    }
+    .phone-icon {
+      margin: 2%;
+    }
+  }
+  .social-icon {
+    font-size: 20px;
+    color: $MainColor;
+    .icon {
+      padding: 20px;
+      &:hover{
+        display: inline-block;
+        margin: 0 0.5rem;
+      
+        animation: bounce; /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 2s; /* don't forget to set a duration! */
+      
+      }
+    }
+  }
+}
+.footerDetials {
+  width: 70%;
+  background-color: #efefef;
+  padding: 70px 50px;
+  .details {
+    position: relative;
+    width: 100%;
+    margin: 2%;
+    h6 {
+      font-size: 1.6rem;
+      font-weight: 600;
+      color: #253237;
+      text-transform: capitalize;
+      border-bottom: 1px solid #e3e3e3;
+      &::after {
+        content: "";
+        border-bottom: 2px solid $MainColor;
+        width: 50px;
+        display: block;
+      }
+    }
+  }
+}
